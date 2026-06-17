@@ -31,26 +31,41 @@
   <path d="M412 252C454 228 486 214 524 211M413 260H524M412 268C454 292 486 312 524 317" class="line"/>
   <text x="356" y="356" class="xs">workflow request</text>
   <text x="502" y="356" class="xs">provider policy</text>
+  <text x="354" y="264" class="xs">App</text>
+  <text x="586" y="214" class="xs">OpenAI</text>
+  <text x="586" y="268" class="xs">Claude</text>
+  <text x="586" y="322" class="xs">Bedrock</text>
+  <rect x="344" y="198" width="118" height="24" rx="12" fill="#fff" stroke="#111"/>
+  <text x="362" y="214" class="xs">Routing Policy</text>
+  <rect x="344" y="300" width="92" height="24" rx="12" fill="#fff" stroke="#111"/>
+  <text x="360" y="316" class="xs">Guardrails</text>
   <rect x="702" y="146" width="210" height="110" rx="18" class="panel"/>
   <text x="728" y="181" class="h">Provider Health</text>
   <path d="M732 220H880" class="soft"/><path d="M732 220H840" class="line"/>
+  <text x="732" y="208" class="xs">OpenAI ok</text>
+  <text x="732" y="244" class="xs">Local Model ready</text>
   <rect x="702" y="274" width="210" height="110" rx="18" class="panel"/>
-  <text x="728" y="309" class="h">Spend Today</text>
+  <text x="728" y="309" class="h">Cost by Workflow</text>
   <rect x="732" y="332" width="132" height="14" rx="7" fill="#111"/>
+  <text x="732" y="360" class="xs">support agent</text>
   <rect x="930" y="146" width="230" height="238" rx="18" class="panel"/>
   <text x="956" y="181" class="h">Approval Queue</text>
   <rect x="956" y="210" width="178" height="42" rx="10" class="sub"/>
   <rect x="956" y="268" width="178" height="42" rx="10" class="sub"/>
   <rect x="956" y="326" width="178" height="42" rx="10" class="sub"/>
+  <text x="974" y="235" class="xs">tool call approval</text>
+  <text x="974" y="293" class="xs">PII redaction review</text>
+  <text x="974" y="351" class="xs">prompt release gate</text>
   <rect x="318" y="414" width="520" height="190" rx="18" class="panel"/>
   <text x="344" y="449" class="h">Trace Timeline</text>
   <path d="M354 510H790" class="soft"/>
   <circle cx="390" cy="510" r="10" fill="#111"/><circle cx="500" cy="510" r="10" fill="#fff" stroke="#111"/><circle cx="610" cy="510" r="10" fill="#fff" stroke="#111"/><circle cx="720" cy="510" r="10" fill="#fff" stroke="#111"/>
   <rect x="368" y="548" width="342" height="12" rx="6" fill="#d8d8d8"/>
   <rect x="368" y="572" width="210" height="10" rx="5" fill="#efefef"/>
+  <text x="376" y="536" class="xs">request -> route -> guard -> tool -> response</text>
   <rect x="868" y="414" width="292" height="190" rx="18" class="panel"/>
-  <text x="894" y="449" class="h">Evaluation Status</text>
+  <text x="894" y="449" class="h">Eval Pass Rate</text>
   <path d="M904 552L948 518L1004 538L1060 478L1124 506" class="line"/>
   <path d="M904 552H1128M904 500H1128" class="soft"/>
+  <text x="904" y="578" class="xs">golden set regression</text>
 </svg>
-
