@@ -2,7 +2,15 @@
 
 Enterprise AI infrastructure for teams that need model access, routing, guardrails, observability, approvals, and evaluation in one governed layer.
 
+## Product Preview
+
 ![Waxis AI Control Plane dashboard](./docs/images/product-dashboard.svg)
+
+![Waxis AI Control Plane workflow](./docs/images/product-workflow.svg)
+
+![Waxis AI Control Plane architecture](./docs/images/product-architecture.svg)
+
+
 
 ## What It Is
 
@@ -66,4 +74,3 @@ The complete product requirements document is here:
 ## Research Basis
 
 This repo uses a June 2026 research snapshot across official AI platform, safety, observability, and enterprise-agent sources, including NIST AI RMF, OWASP LLM Top 10, MCP, OpenAI Agents/File Search, Anthropic caching/rate-limit guidance, and Amazon Bedrock Guardrails.
-

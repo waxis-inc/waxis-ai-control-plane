@@ -1,71 +1,88 @@
-<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Waxis AI Control Plane dashboard</title>
-  <desc id="desc">A black and white dashboard illustration showing routing, policy, traces, cost, and approvals.</desc>
-  <style>
-    .bg{fill:#fff}.ink{fill:#111}.muted{fill:#666}.line{stroke:#111;stroke-width:1.4}.soft{stroke:#cfcfcf;stroke-width:1}.panel{fill:#fff;stroke:#111;stroke-width:1.4}.sub{fill:#f7f7f7;stroke:#d8d8d8}.title{font:600 24px Inter,Arial,sans-serif;fill:#111}.h{font:600 15px Inter,Arial,sans-serif;fill:#111}.t{font:500 12px Inter,Arial,sans-serif;fill:#555}.xs{font:500 10px Inter,Arial,sans-serif;fill:#777}
-  </style>
-  <rect class="bg" width="1280" height="720"/>
-  <rect x="70" y="58" width="1140" height="604" rx="26" class="panel"/>
-  <rect x="70" y="58" width="1140" height="58" rx="26" class="sub"/>
-  <path d="M70 94H1210" class="soft"/>
-  <circle cx="104" cy="86" r="7" fill="#111"/><circle cx="128" cy="86" r="7" fill="#777"/><circle cx="152" cy="86" r="7" fill="#d0d0d0"/>
-  <text x="188" y="93" class="title">Waxis AI Control Plane</text>
-  <rect x="98" y="146" width="188" height="480" rx="18" class="sub"/>
-  <text x="124" y="184" class="h">Platform</text>
-  <rect x="124" y="216" width="132" height="14" rx="7" fill="#111"/>
-  <rect x="124" y="256" width="98" height="10" rx="5" fill="#777"/>
-  <rect x="124" y="294" width="116" height="10" rx="5" fill="#777"/>
-  <rect x="124" y="332" width="86" height="10" rx="5" fill="#777"/>
-  <rect x="124" y="394" width="132" height="52" rx="12" fill="#fff" stroke="#d8d8d8"/>
-  <text x="142" y="424" class="t">Gateway</text>
-  <rect x="124" y="462" width="132" height="52" rx="12" fill="#fff" stroke="#d8d8d8"/>
-  <text x="142" y="492" class="t">Policies</text>
-  <rect x="124" y="530" width="132" height="52" rx="12" fill="#fff" stroke="#d8d8d8"/>
-  <text x="142" y="560" class="t">Evals</text>
-  <rect x="318" y="146" width="350" height="238" rx="18" class="panel"/>
-  <text x="344" y="181" class="h">Model Routing</text>
-  <circle cx="382" cy="260" r="30" fill="#fff" stroke="#111" stroke-width="1.5"/>
-  <circle cx="548" cy="210" r="24" fill="#f7f7f7" stroke="#111" stroke-width="1.4"/>
-  <circle cx="548" cy="264" r="24" fill="#f7f7f7" stroke="#111" stroke-width="1.4"/>
-  <circle cx="548" cy="318" r="24" fill="#f7f7f7" stroke="#111" stroke-width="1.4"/>
-  <path d="M412 252C454 228 486 214 524 211M413 260H524M412 268C454 292 486 312 524 317" class="line"/>
-  <text x="356" y="356" class="xs">workflow request</text>
-  <text x="502" y="356" class="xs">provider policy</text>
-  <text x="354" y="264" class="xs">App</text>
-  <text x="586" y="214" class="xs">OpenAI</text>
-  <text x="586" y="268" class="xs">Claude</text>
-  <text x="586" y="322" class="xs">Bedrock</text>
-  <rect x="344" y="198" width="118" height="24" rx="12" fill="#fff" stroke="#111"/>
-  <text x="362" y="214" class="xs">Routing Policy</text>
-  <rect x="344" y="300" width="92" height="24" rx="12" fill="#fff" stroke="#111"/>
-  <text x="360" y="316" class="xs">Guardrails</text>
-  <rect x="702" y="146" width="210" height="110" rx="18" class="panel"/>
-  <text x="728" y="181" class="h">Provider Health</text>
-  <path d="M732 220H880" class="soft"/><path d="M732 220H840" class="line"/>
-  <text x="732" y="208" class="xs">OpenAI ok</text>
-  <text x="732" y="244" class="xs">Local Model ready</text>
-  <rect x="702" y="274" width="210" height="110" rx="18" class="panel"/>
-  <text x="728" y="309" class="h">Cost by Workflow</text>
-  <rect x="732" y="332" width="132" height="14" rx="7" fill="#111"/>
-  <text x="732" y="360" class="xs">support agent</text>
-  <rect x="930" y="146" width="230" height="238" rx="18" class="panel"/>
-  <text x="956" y="181" class="h">Approval Queue</text>
-  <rect x="956" y="210" width="178" height="42" rx="10" class="sub"/>
-  <rect x="956" y="268" width="178" height="42" rx="10" class="sub"/>
-  <rect x="956" y="326" width="178" height="42" rx="10" class="sub"/>
-  <text x="974" y="235" class="xs">tool call approval</text>
-  <text x="974" y="293" class="xs">PII redaction review</text>
-  <text x="974" y="351" class="xs">prompt release gate</text>
-  <rect x="318" y="414" width="520" height="190" rx="18" class="panel"/>
-  <text x="344" y="449" class="h">Trace Timeline</text>
-  <path d="M354 510H790" class="soft"/>
-  <circle cx="390" cy="510" r="10" fill="#111"/><circle cx="500" cy="510" r="10" fill="#fff" stroke="#111"/><circle cx="610" cy="510" r="10" fill="#fff" stroke="#111"/><circle cx="720" cy="510" r="10" fill="#fff" stroke="#111"/>
-  <rect x="368" y="548" width="342" height="12" rx="6" fill="#d8d8d8"/>
-  <rect x="368" y="572" width="210" height="10" rx="5" fill="#efefef"/>
-  <text x="376" y="536" class="xs">request -> route -> guard -> tool -> response</text>
-  <rect x="868" y="414" width="292" height="190" rx="18" class="panel"/>
-  <text x="894" y="449" class="h">Eval Pass Rate</text>
-  <path d="M904 552L948 518L1004 538L1060 478L1124 506" class="line"/>
-  <path d="M904 552H1128M904 500H1128" class="soft"/>
-  <text x="904" y="578" class="xs">golden set regression</text>
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Waxis AI Control Plane">
+
+<style>
+.bg{fill:#fff}.window{fill:#fff;stroke:#111;stroke-width:1.25}.bar{fill:#f7f7f7;stroke:#ddd;stroke-width:1}.panel{fill:#fff;stroke:#111;stroke-width:1.15}.soft{fill:#fafafa;stroke:#d9d9d9;stroke-width:1}.ghost{fill:#f6f6f6;stroke:#e5e5e5;stroke-width:1}.black{fill:#111}.mid{fill:#777}.light{fill:#d8d8d8}.line{stroke:#111;stroke-width:1.25;fill:none}.thin{stroke:#d4d4d4;stroke-width:1;fill:none}.dash{stroke:#999;stroke-width:1;stroke-dasharray:5 5;fill:none}.title{font:700 24px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#111}.sub{font:500 11px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#666}.h{font:700 15px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#111}.t{font:500 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#555}.xs{font:500 10px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#777}.tiny{font:500 8.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#777}.whiteText{font:700 10px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#fff}.mono{font:500 10px SFMono-Regular,Menlo,Consolas,monospace;fill:#555}
+</style>
+
+<rect class="bg" width="1280" height="720"/>
+<rect x="48" y="42" width="1184" height="636" rx="28" class="window"/>
+<rect x="48" y="42" width="1184" height="64" rx="28" class="bar"/>
+<path d="M48 82H1232" class="thin"/>
+<circle cx="84" cy="74" r="7" class="black"/><circle cx="110" cy="74" r="7" class="mid"/><circle cx="136" cy="74" r="7" class="light"/>
+<text x="176" y="72" class="title">Waxis AI Control Plane</text>
+<text x="176" y="94" class="sub">Governed model gateway, routing, policies, approvals, traces, and evals.</text>
+
+<rect x="82" y="138" width="200" height="500" rx="18" class="soft"/>
+<text x="110" y="176" class="h">Product Surface</text>
+<rect x="110" y="218" width="140" height="25" rx="12" fill="#111" stroke="#111" stroke-width="1"/><text x="124" y="235" class="whiteText">Gateway</text>
+<rect x="110" y="264" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="281" class="xs">Routing</text>
+<rect x="110" y="310" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="327" class="xs">Policies</text>
+<rect x="110" y="356" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="373" class="xs">Traces</text>
+<rect x="110" y="402" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="419" class="xs">Evals</text>
+<path d="M110 568H250" class="thin"/>
+<text x="110" y="604" class="xs">Production-grade view</text>
+<rect x="318" y="138" width="150" height="74" rx="14" class="panel"/><text x="336" y="168" class="xs">Cost by Workflow</text><rect x="336" y="181" width="92" height="10" rx="5" fill="#111"/>
+<rect x="486" y="138" width="150" height="74" rx="14" class="panel"/><text x="504" y="168" class="xs">p95 Latency</text><rect x="504" y="181" width="92" height="10" rx="5" fill="#111"/>
+<rect x="654" y="138" width="150" height="74" rx="14" class="panel"/><text x="672" y="168" class="xs">Policy Blocks</text><rect x="672" y="181" width="92" height="10" rx="5" fill="#111"/>
+<rect x="822" y="138" width="150" height="74" rx="14" class="panel"/><text x="840" y="168" class="xs">Eval Pass Rate</text><rect x="840" y="181" width="92" height="10" rx="5" fill="#111"/>
+<rect x="318" y="238" width="410" height="232" rx="18" class="panel"/>
+<text x="344" y="274" class="h">Live Model Gateway</text>
+<rect x="348" y="322" width="86" height="46" rx="16" fill="#fff" stroke="#111" stroke-width="1"/>
+<text x="370" y="349" class="xs">App API</text>
+<rect x="572" y="288" width="106" height="36" rx="14" fill="#fafafa" stroke="#111" stroke-width="1"/>
+<text x="592" y="311" class="xs">OpenAI</text>
+<circle cx="660" cy="306" r="5" fill="#111"/>
+<path d="M434 345C488 306 520 306 572 306" class="line"/>
+<rect x="572" y="346" width="106" height="36" rx="14" fill="#fafafa" stroke="#111" stroke-width="1"/>
+<text x="592" y="369" class="xs">Claude</text>
+<circle cx="660" cy="364" r="5" fill="#111"/>
+<path d="M434 345C488 364 520 364 572 364" class="line"/>
+<rect x="572" y="404" width="106" height="36" rx="14" fill="#fafafa" stroke="#111" stroke-width="1"/>
+<text x="592" y="427" class="xs">Bedrock</text>
+<circle cx="660" cy="422" r="5" fill="#111"/>
+<path d="M434 345C488 422 520 422 572 422" class="line"/>
+<rect x="448" y="292" width="104" height="28" rx="14" fill="#fff" stroke="#111" stroke-width="1"/>
+<text x="466" y="311" class="xs">Routing Policy</text>
+<rect x="448" y="378" width="82" height="28" rx="14" fill="#fff" stroke="#111" stroke-width="1"/>
+<text x="466" y="397" class="xs">Guardrails</text>
+<rect x="758" y="238" width="188" height="232" rx="18" class="panel"/>
+<text x="784" y="274" class="h">Provider Health</text>
+<text x="784" y="308" class="xs">OpenAI</text>
+<rect x="784" y="318" width="132" height="7" rx="3.5" fill="#e1e1e1"/>
+<rect x="784" y="318" width="116" height="7" rx="3.5" fill="#111"/>
+<text x="784" y="350" class="xs">Claude</text>
+<rect x="784" y="360" width="132" height="7" rx="3.5" fill="#e1e1e1"/>
+<rect x="784" y="360" width="88" height="7" rx="3.5" fill="#111"/>
+<text x="784" y="392" class="xs">Bedrock</text>
+<rect x="784" y="402" width="132" height="7" rx="3.5" fill="#e1e1e1"/>
+<rect x="784" y="402" width="128" height="7" rx="3.5" fill="#111"/>
+<text x="784" y="434" class="xs">Local Model</text>
+<rect x="784" y="444" width="132" height="7" rx="3.5" fill="#e1e1e1"/>
+<rect x="784" y="444" width="72" height="7" rx="3.5" fill="#111"/>
+<rect x="974" y="238" width="202" height="232" rx="18" class="panel"/>
+<text x="1000" y="274" class="h">Approval Queue</text>
+<rect x="1000" y="306" width="144" height="32" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="1"/>
+<text x="1016" y="327" class="tiny">Tool call approval</text>
+<rect x="1000" y="356" width="144" height="32" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="1"/>
+<text x="1016" y="377" class="tiny">PII redaction review</text>
+<rect x="1000" y="406" width="144" height="32" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="1"/>
+<text x="1016" y="427" class="tiny">Prompt release gate</text>
+<rect x="318" y="500" width="512" height="112" rx="18" class="panel"/>
+<text x="344" y="534" class="h">Trace Timeline</text>
+<circle cx="380" cy="566" r="9" fill="#111" stroke="#111"/>
+<text x="358" y="594" class="tiny">request</text>
+<path d="M392 566H476" class="line"/>
+<circle cx="488" cy="566" r="9" fill="#fff" stroke="#111"/>
+<text x="466" y="594" class="tiny">route</text>
+<path d="M500 566H584" class="line"/>
+<circle cx="596" cy="566" r="9" fill="#fff" stroke="#111"/>
+<text x="574" y="594" class="tiny">guard</text>
+<path d="M608 566H692" class="line"/>
+<circle cx="704" cy="566" r="9" fill="#fff" stroke="#111"/>
+<text x="682" y="594" class="tiny">response</text>
+<rect x="858" y="500" width="318" height="112" rx="18" class="panel"/>
+<text x="884" y="534" class="h">Evaluation Gate</text>
+<path d="M884 584L932 556L984 570L1038 540L1118 552" class="line"/>
+<path d="M884 584H1126M884 548H1126" class="thin"/>
+<text x="884" y="604" class="tiny">golden set regression before release</text>
 </svg>
